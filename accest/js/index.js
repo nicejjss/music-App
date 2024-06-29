@@ -70,6 +70,18 @@ const App = {
             img: 'https://i.pinimg.com/564x/13/85/94/138594cf9e31116d0427f1c07710f465.jpg',
             music: 'https://rr3---sn-8pxuuxa-i5o66.googlevideo.com/videoplayback?expire=1719671111&ei=58R_ZoCuBZug1d8Pl82a4AM&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-AMOUZyEBqVDv1T-keZE3d20u6ZqO1D0NsctZ5n0edV5C&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=dA&mm=31%2C29&mn=sn-8pxuuxa-i5o66%2Csn-8pxuuxa-i5o6d&ms=au%2Crdu&mv=m&mvi=3&pl=48&initcwndbps=1172500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3900703&dur=240.976&lmt=1695745495417471&mt=1719649042&fvip=4&keepalive=yes&c=IOS&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAMTDUjVEj186-RXFMJfbhfaw_sQrMVMxjrrjB6VurRixAiA6aVdaF0lW78lxgT0WwVNmUoU5eMdR6e_OawMFE8TDug%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRAIgXYSgZD9OST50yzSBAUoaXPFlrH_x1tF9nEYKgUht5LcCIHtPTlFV8dfJ86lZvUmLRRpRH2QPIIzAyFm1-O9P3SKE'
         },
+        {
+            name: "Back at One",
+            singer: "Shayne Ward",
+            img: 'https://i.pinimg.com/564x/3c/c4/9a/3cc49a5be0dc59742b93323f636acbd1.jpg',
+            music: 'https://rr1---sn-i3b7kn6s.googlevideo.com/videoplayback?expire=1719672604&ei=vMp_ZrzDJdOZvcAPy7Or2AY&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-ADgDIwydytNXK1U1Buqn-eLgfYhTiqvnlV9YYwayfUhz&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&gcr=vn&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3509439&dur=216.804&lmt=1705932420710602&keepalive=yes&c=IOS&txp=5318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cgcr%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJTfkFgCMumC9Q6Qrj8yruT9K6eUR8Ju-Xd5f9BP1njmAiEA9D9_i98gr1g5xOmZUgBLxKcrxvzB4nXtSYBe5vm0LPg%3D&cm2rm=sn-8pxuuxa-i5od67k,sn-8pxuuxa-i5oz776&fexp=24350518&req_id=a12af21fbc36a3ee&redirect_counter=2&cms_redirect=yes&cmsv=e&mh=2i&mm=30&mn=sn-i3b7kn6s&ms=nxu&mt=1719650684&mv=m&mvi=1&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AHlkHjAwRgIhALzEjnr0AI9ejKhB5n1fsSt0wiYROpcDSq-u5qhRQbc3AiEAtlnkH-frrggk1aMeMYKwMxFyp5OowIjyZTRM2dVPJ3k%3D'
+        },
+        {
+            name: "Now and Then",
+            singer: "The Beatles",
+            img: 'https://i.pinimg.com/736x/6a/71/85/6a718501dac9b3a9fb9b13ce3b2786b6.jpg',
+            music: 'https://rr2---sn-8pxuuxa-i5o6k.googlevideo.com/videoplayback?expire=1719673250&ei=Qs1_ZuKhErS0vcAPh6asoAg&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-ACBJ7jPAYEWJYXSsVJvr2xowNXDg6qSOXQjbhX_VtIt7&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&gcr=vn&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=4025750&dur=248.708&lmt=1705791949258796&keepalive=yes&c=IOS&txp=4532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cgcr%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgI8C5vbWL9gifsk16QvC9D6p2yfDenOv6Lt829c3_Tf8CIGRPDz_0JK4AD1qdzijwWVFKQveHh_HFt-V520U_j-jf&redirect_counter=1&cm2rm=sn-8pxuuxa-i5oel7s&fexp=24350518&req_id=1e8bf46d746fa3ee&cms_redirect=yes&cmsv=e&mh=hv&mm=29&mn=sn-8pxuuxa-i5o6k&ms=rdu&mt=1719651221&mv=m&mvi=2&pcm2cms=yes&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl&lsig=AHlkHjAwRAIgChvIkGfvorsD1NtK3c-D6iFfDNWHSUMXq082ZtLCXzgCICHtLhDzXpJ2aKRHEKKvYb31Ozjuc4kNxAijL7eFPdTt'
+        },
     ],
 
     render: function () {                                        //render
