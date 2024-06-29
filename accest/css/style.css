@@ -1,0 +1,370 @@
+:root {
+  --light-color: #ec1f55;
+  --text-color: #333;
+  --dark-color: #2ed573;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.player {
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.player .icon-pause {
+  display: none;
+}
+
+.player.playing .icon-pause {
+  display: inline-block;
+}
+
+.player.playing .icon-play {
+  display: none;
+}
+
+.dashboard {
+  padding: 16px 16px 14px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 480px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header h4 {
+  color: var(--light-color);
+  font-size: 12px;
+}
+
+header h2 {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+
+/* CD */
+.cd {
+  display: flex;
+  margin: auto;
+  width: 200px;
+}
+
+.cd-thumb {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  background-size: cover;
+  margin: auto;
+}
+
+/* CONTROL */
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 18px 0 8px 0;
+}
+
+.control .btn {
+  color: #666;
+  padding: 18px;
+  font-size: 18px;
+}
+
+.control .btn.active {
+  color: var(--light-color);
+}
+
+.control .btn-toggle-play {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-color);
+}
+
+.btn,
+.progress {
+  cursor: pointer;
+}
+
+.progress,
+.volume {
+  /* width: 100%;
+    -webkit-appearance: none;
+    height: 6px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s; */
+  width: 100%;
+  overflow: hidden;
+  -webkit-appearance: none;
+  height: 6px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.progress::-webkit-slider-thumb,
+.volume::-webkit-slider-thumb {
+  /* -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 6px;
+    background-color: var(--light-color);
+    cursor: pointer; */
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 12px;
+  height: 6px;
+  background: var(--light-color);
+  box-shadow: -1000px 0 0 1000px var(--light-color);
+}
+
+/* Volume */
+.icon-down,
+.icon-off {
+  display: none;
+}
+
+.volume-change {
+  color: #666666;
+  position: relative;
+  left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  top: 10px;
+  height: 27px;
+}
+
+.btn-music {
+  font-size: 18px;
+}
+
+.btn-music i {
+  height: 18px;
+  width: 18px;
+}
+
+.volume {
+  width: calc(100% - 40px);
+  margin-left: 12px;
+}
+
+
+.list-range {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* PLAYLIST */
+.playlist {
+  margin-top: 408px;
+  padding: 10px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.song.active {
+  background-color: #fff;
+}
+
+.song:active {
+  opacity: 0.8;
+}
+
+.song.active .option,
+.song.active .author,
+.song.active .title {
+  color: var(--light-color);
+}
+
+.song .thumb {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 0 8px;
+}
+
+.song .body {
+  flex: 1;
+  padding: 0 16px;
+}
+
+.song .title {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.song .author {
+  font-size: 12px;
+  color: #999;
+}
+
+.song .option {
+  padding: 16px 8px;
+  color: #999;
+  font-size: 18px;
+}
+
+
+/* Theme */
+.change-theme {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 2px;
+  z-index: 2;
+  cursor: pointer;
+  padding: 2px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.backgound {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+}
+
+.theme-item {
+  margin-right: 5px;
+  padding: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.light {
+  background-color: #f5f5f5;
+  color: var(--text-color);
+}
+
+.dark {
+  background-color: #3d3d3d;
+  color: #f5f5f5;
+}
+
+input[type=checkbox]:checked~*,
+input[type=checkbox]:checked~.player * {
+  transition: all linear 0.3s;
+}
+
+input[type=checkbox]:not(:checked)~*,
+input[type=checkbox]:checked~.player * {
+  transition: all linear 0.3s;
+}
+
+input[type=checkbox]:checked~.backgound {
+  background-color: #3d3d3d;
+}
+
+input[type=checkbox]:checked~.change-theme {
+  border-color: #f5f5f5;
+  background-color: #3d3d3d;
+  color: #f5f5f5;
+}
+
+input[type=checkbox]:checked~.player .dashboard {
+  background-color: #4b4b4b;
+  border-bottom: 1px solid #424242;
+}
+
+input[type=checkbox]:checked~.player .dashboard header h2 {
+  color: #fff;
+}
+
+input[type=checkbox]:checked~.player .dashboard header h4 {
+  color: var(--dark-color);
+}
+
+input[type=checkbox]:checked~.player .dashboard .control .btn.active {
+  color: var(--dark-color);
+}
+
+input[type=checkbox]:checked~.player .dashboard .control .btn-toggle-play {
+  background-color: var(--dark-color);
+  color: #fff !important;
+}
+
+input[type=checkbox]:checked~.player .dashboard .progress::-webkit-slider-thumb {
+  background: var(--dark-color);
+  box-shadow: -1000px 0 0 1000px var(--dark-color);
+}
+
+input[type=checkbox]:checked~.player .dashboard .volume::-webkit-slider-thumb {
+  background: var(--dark-color);
+  box-shadow: -1000px 0 0 1000px var(--dark-color);
+}
+
+input[type=checkbox]:checked~.player .playlist .song {
+  background-color: #4b4b4b;
+}
+
+input[type=checkbox]:checked~.player .playlist .song .body * {
+  color: #fff;
+}
+
+input[type=checkbox]:checked~.player .playlist .song .body .author {
+  color: rgb(181, 181, 181);
+}
+
+input[type=checkbox]:checked~.player .playlist .song .option {
+  color: rgb(181, 181, 181);
+}
+
+input[type=checkbox]:checked~.player .playlist .song.active .body * {
+  color: var(--dark-color);
+}
+
+input[type=checkbox]:checked~.player .playlist .song.active .option {
+  color: var(--dark-color);
+}
