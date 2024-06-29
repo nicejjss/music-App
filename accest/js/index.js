@@ -29,59 +29,65 @@ const App = {
     israndom: false,
     song: [
         {
-            name: "Take her to the moon for me",
+            name: "Take her to the moon",
             singer: "Moira Dela Torre",
             img: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F558eac30ce4394e4355a8604d73d86da.640x640x1.jpg',
-            music: 'https://rr1---sn-i3b7knld.googlevideo.com/videoplayback?expire=1719670634&ei=CsN_ZuOwC4C9vcAPjNu3mAY&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-ABuAYn6O_tHk9Zq5rT2AF6UWWLQ428fcibjSS66fDSZq&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=5560274&dur=343.492&lmt=1706194307523297&keepalive=yes&c=IOS&txp=4532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgTgtDuRfRl1-l2hgI38-e1cyMFaj4V5oeFzzV1kEg0LYCIQC75aKOxSWsIW2x8Zc7KdINEfOy1gDx4fYQabAYlfFA9A%3D%3D&cm2rm=sn-8pxuuxa-i5od67e,sn-8pxuuxa-i5oez76&fexp=24350518&req_id=d1a2bf869cbca3ee&redirect_counter=2&cms_redirect=yes&cmsv=e&mh=E6&mm=30&mn=sn-i3b7knld&ms=nxu&mt=1719648759&mv=m&mvi=1&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AHlkHjAwRgIhAMlwKsLL2SHPT2kfhUuUVOW0M18pCucIt1k65uk7lWHFAiEA_5jwXNx1OWMcOy1FdS2mjzSyOrSSIfA5Gxm6H9e5FKE%3D'
+            music: 'https://dl.dropbox.com/scl/fi/xaf0skfc3gigm350e3jr9/takehertothemoon.mp3?rlkey=i0grejom1mw5zw7n7esht8su6&st=xpjui6vq&dl=0'
         },
         {
             name: "2002",
             singer: "Anne Marie",
             img: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Fa1fd0f25c332080e1a60ffb8309cc099.1000x1000x1.png',
-            music: 'https://rr5---sn-8pxuuxa-i5oel.googlevideo.com/videoplayback?expire=1719671335&ei=x8V_ZunyJMeuvcAPocmVgAg&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-AECw3dQOZbyJnLpB7-uPoGZbJxndpLxA3B7RR4ykAGaI&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=Ys&mm=31%2C29&mn=sn-8pxuuxa-i5oel%2Csn-8pxuuxa-i5ozz&ms=au%2Crdu&mv=m&mvi=5&pl=48&initcwndbps=1222500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3033308&dur=187.385&lmt=1697070882810314&mt=1719649258&fvip=4&keepalive=yes&c=IOS&txp=4532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgKntKOz3gql7cQuJJdfMrK_e3T_3LLvSG3mm7sJtYTPoCIHmgIZVu6NqpY5gOqtPFX1_pPxs5OOyBTuRCVEzsLVd3&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAOVr88wu2Sy7-JGZWk52S6-qccFW1zNypoHZRNjE8akKAiB4qK8hm0ANEIhP9ePNrHIQd3gNT_Bx7r7it7w4XpP58A%3D%3D'
+            music: 'https://dl.dropbox.com/scl/fi/sl0r5sukajxl2si9l1k9y/2002.mp3?rlkey=848kr9g28la8wvnt50dfenp53&st=ef5m9r7s&dl=0'
         },
         {
             name: "Cold/Mess",
             singer: "Prateek Kuhad",
             img: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F455bbc51a267019423f4a0cb875d4c03.1000x1000x1.jpg',
-            music: 'https://rr5---sn-i3b7knse.googlevideo.com/videoplayback?expire=1719671388&ei=_MV_ZovmON6VvcAPyP2cmAY&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-ACJ1mK6MLou8tMOSFkIV8l3Ko3bvrMWr4WcFOrEmLee2&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=4566587&dur=282.122&lmt=1577784662766857&keepalive=yes&c=IOS&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgf8HztqKkjsdLP3C8phgfxe0XKzNCoHdVrlnywWHIOIYCIQCGVw1tr8MVkjwE4vXjrYmdfV-8rXm-6SWzU1pDeLuOQA%3D%3D&cm2rm=sn-8pxuuxa-i5o6676,sn-8pxuuxa-i5ozz7z&fexp=24350518&req_id=4d3e4b9e71e3a3ee&redirect_counter=2&cms_redirect=yes&cmsv=e&mh=BO&mm=30&mn=sn-i3b7knse&ms=nxu&mt=1719649476&mv=m&mvi=5&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AHlkHjAwRgIhAJNLPwarYlTYhyGuB9MiHwNNRjm9f1FUaJkIrToGLXvKAiEAlD37sIYGKCNYPQyc6gnLJ8M-p6e2zOKyUqErFepj3Uo%3D'
+            music: 'https://dl.dropbox.com/scl/fi/zzt1w3o4omh4mogak25b4/coldmess.mp3?rlkey=2rrna32duy7l8ei9v916vj13l&st=hhk42jud&dl=0'
         },
         {
             name: "Mộng du",
             singer: "Chillies",
             img: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Fa53f5c46f695ffa6fd1f00f1b4faabdd.1000x1000x1.jpg',
-            music: 'https://rr6---sn-8pxuuxa-i5o6d.googlevideo.com/videoplayback?expire=1719671510&ei=dsZ_Zun0F4q8vcAP3aWp2AY&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-AAr_6nilXdiRri5RWEOMJZwG6GXQkVs3oGIznVojJuiy&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3869418&dur=239.049&lmt=1705994513829729&keepalive=yes&c=IOS&txp=4532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgZ7X0xlv3c4hCTdSIPpBOKsFb7a15Ox1_PTJxoWWovygCIDDp0V4_9Rby3-GFBOnWXBlQCj04ryp2G8EO_BPTzkxH&redirect_counter=1&cm2rm=sn-8pxuuxa-i5o667z&fexp=24350518&req_id=e29485671353a3ee&cms_redirect=yes&cmsv=e&mh=ww&mm=29&mn=sn-8pxuuxa-i5o6d&ms=rdu&mt=1719649765&mv=m&mvi=6&pcm2cms=yes&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl&lsig=AHlkHjAwRQIhALPRWdaQl929BKqqN_b3Oc8SU0Hm6AE3Q0PB4u9KckKUAiAx2JJgcaWxtnwT5-_NX4CTc3AZlmF-Bdq78-QeMuzJxA%3D%3D'
+            music: 'https://dl.dropbox.com/scl/fi/npmqk8ff783oys3d8zlgp/mongdu.mp3?rlkey=dg09zytubw133pqep0r9dlzfs&st=wpf283a7&dl=0'
         },
         {
             name: "Singing in the rain",
             singer: "Don Lockwood",
             img: 'https://i.pinimg.com/736x/7f/f1/a5/7ff1a5c941d3678953e3b277d1421365.jpg',
-            music: 'https://rr2---sn-8pxuuxa-i5ozs.googlevideo.com/videoplayback?expire=1719671560&ei=qMZ_ZtScDqqWvcAPwqSFkAE&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-APZ_-XhV9Pzxz8js0ylVXx6JKwJ275I9LJqFQI6l8nQ-&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=2895376&dur=178.863&lmt=1612983453947744&keepalive=yes&c=IOS&txp=5311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgFZ7CMo9fES7oZPSUtUw7CQwsraidsx7tSnLf0UX_yQgCIDKt4s-7Ibu8Z3Pkormaei3YhgqDnDgA5VXpJXuJ3S8C&redirect_counter=1&cm2rm=sn-8pxuuxa-i5oek7s&fexp=24350518&req_id=1920c581b089a3ee&cms_redirect=yes&cmsv=e&mh=Tc&mm=29&mn=sn-8pxuuxa-i5ozs&ms=rdu&mt=1719649765&mv=m&mvi=2&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AHlkHjAwRQIgRLLs0zVO-cjcUUKNf1au6YlufJqOHC38yKHT7H0b3SICIQChEgyrtuVgvSu7HJw6kQxU3m-RI4PRPcjCtOYUbqPFiA%3D%3D'
+            music: 'https://dl.dropbox.com/scl/fi/6e6jsjpcwv7tgj4lqomm2/signintherain.mp3?rlkey=uaxuxlsm8tr5c0ctgrfd90cb7&st=xgn6v14f&dl=0'
         },
         {
             name: "Close to you",
             singer: "Carpenters",
             img: 'https://i.pinimg.com/564x/5c/da/0c/5cda0c01f76017ba777b4706095cf176.jpg',
-            music: 'https://rr5---sn-8pxuuxa-i5oed.googlevideo.com/videoplayback?expire=1719671590&ei=xsZ_ZpSXB-y4vcAPq9Kb0Ag&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-ANfwd_WstC8sViipSLibswc_PVC7eAH6H0sNBXnoTAPa&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=4N&mm=31%2C29&mn=sn-8pxuuxa-i5oed%2Csn-8pxuuxa-i5o6d&ms=au%2Crdu&mv=m&mvi=5&pl=48&initcwndbps=1442500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3665771&dur=226.464&lmt=1709135499152156&mt=1719649505&fvip=5&keepalive=yes&c=IOS&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgG5zT8k0A-evlEk4vXCf8-WZSJ2WfPwpiHB065fDdx50CIQCSfyu8ka_93-H-vBxV_ioSniAWVm0E1WGn7NnJNvKwtA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRAIgWUGJEen9mq3kA0o4mFIGrFin0lk0Y2wwIk7DCVn7pwICICFHHvjnFjRSijzMcCh-yKC0cGoc70y4tWtoyj3o5TzT'
+            music: 'https://dl.dropbox.com/scl/fi/rqfie1ssatgf5y50n7zca/closetoyou.mp3?rlkey=1614mrfx7l4rbek86hndikg65&st=p3lq9oas&dl=0'
         },
         {
             name: "Nếu biết đó là lần cuối",
             singer: "Đức Trường",
             img: 'https://i.pinimg.com/564x/13/85/94/138594cf9e31116d0427f1c07710f465.jpg',
-            music: 'https://rr3---sn-8pxuuxa-i5o66.googlevideo.com/videoplayback?expire=1719671111&ei=58R_ZoCuBZug1d8Pl82a4AM&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-AMOUZyEBqVDv1T-keZE3d20u6ZqO1D0NsctZ5n0edV5C&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=dA&mm=31%2C29&mn=sn-8pxuuxa-i5o66%2Csn-8pxuuxa-i5o6d&ms=au%2Crdu&mv=m&mvi=3&pl=48&initcwndbps=1172500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3900703&dur=240.976&lmt=1695745495417471&mt=1719649042&fvip=4&keepalive=yes&c=IOS&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAMTDUjVEj186-RXFMJfbhfaw_sQrMVMxjrrjB6VurRixAiA6aVdaF0lW78lxgT0WwVNmUoU5eMdR6e_OawMFE8TDug%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRAIgXYSgZD9OST50yzSBAUoaXPFlrH_x1tF9nEYKgUht5LcCIHtPTlFV8dfJ86lZvUmLRRpRH2QPIIzAyFm1-O9P3SKE'
+            music: 'https://dl.dropbox.com/scl/fi/tnpjsxvtrowy8f2o142mm/neubietdolalancuoi.mp3?rlkey=rp6vcql0rw2kwgfpx7fofs0bw&st=q8o5i3zv&dl=0'
         },
         {
             name: "Back at One",
             singer: "Shayne Ward",
             img: 'https://i.pinimg.com/564x/3c/c4/9a/3cc49a5be0dc59742b93323f636acbd1.jpg',
-            music: 'https://rr1---sn-i3b7kn6s.googlevideo.com/videoplayback?expire=1719672604&ei=vMp_ZrzDJdOZvcAPy7Or2AY&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-ADgDIwydytNXK1U1Buqn-eLgfYhTiqvnlV9YYwayfUhz&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&gcr=vn&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3509439&dur=216.804&lmt=1705932420710602&keepalive=yes&c=IOS&txp=5318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cgcr%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJTfkFgCMumC9Q6Qrj8yruT9K6eUR8Ju-Xd5f9BP1njmAiEA9D9_i98gr1g5xOmZUgBLxKcrxvzB4nXtSYBe5vm0LPg%3D&cm2rm=sn-8pxuuxa-i5od67k,sn-8pxuuxa-i5oz776&fexp=24350518&req_id=a12af21fbc36a3ee&redirect_counter=2&cms_redirect=yes&cmsv=e&mh=2i&mm=30&mn=sn-i3b7kn6s&ms=nxu&mt=1719650684&mv=m&mvi=1&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AHlkHjAwRgIhALzEjnr0AI9ejKhB5n1fsSt0wiYROpcDSq-u5qhRQbc3AiEAtlnkH-frrggk1aMeMYKwMxFyp5OowIjyZTRM2dVPJ3k%3D'
+            music: 'https://dl.dropbox.com/scl/fi/umkr1mt24oepjwba6ko6w/backatone.mp3?rlkey=3e4p165bc0pjivwh27jw6f7zz&st=uyhj1y64&dl=0'
         },
         {
             name: "Now and Then",
             singer: "The Beatles",
             img: 'https://i.pinimg.com/736x/6a/71/85/6a718501dac9b3a9fb9b13ce3b2786b6.jpg',
-            music: 'https://rr2---sn-8pxuuxa-i5o6k.googlevideo.com/videoplayback?expire=1719673250&ei=Qs1_ZuKhErS0vcAPh6asoAg&ip=2402%3A800%3A61a7%3Ad4af%3Af8b6%3A17ad%3Aba72%3A83d5&id=o-ACBJ7jPAYEWJYXSsVJvr2xowNXDg6qSOXQjbhX_VtIt7&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&gcr=vn&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=4025750&dur=248.708&lmt=1705791949258796&keepalive=yes&c=IOS&txp=4532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cgcr%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgI8C5vbWL9gifsk16QvC9D6p2yfDenOv6Lt829c3_Tf8CIGRPDz_0JK4AD1qdzijwWVFKQveHh_HFt-V520U_j-jf&redirect_counter=1&cm2rm=sn-8pxuuxa-i5oel7s&fexp=24350518&req_id=1e8bf46d746fa3ee&cms_redirect=yes&cmsv=e&mh=hv&mm=29&mn=sn-8pxuuxa-i5o6k&ms=rdu&mt=1719651221&mv=m&mvi=2&pcm2cms=yes&pl=48&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl&lsig=AHlkHjAwRAIgChvIkGfvorsD1NtK3c-D6iFfDNWHSUMXq082ZtLCXzgCICHtLhDzXpJ2aKRHEKKvYb31Ozjuc4kNxAijL7eFPdTt'
+            music: 'https://dl.dropbox.com/scl/fi/ptxtzy8d2fi2y5j2v7dw3/nowandthen.mp3?rlkey=drui9hhhwun3biogd2d7gwwg3&st=5mzo6t4p&dl=0'
         },
+        {
+            name: "Có em đời bỗng vui",
+            singer: "Chillies",
+            img: "https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2F5822e08274e4684b00a177ff3ef2f33e.551x551x1.jpg",
+            music: "https://dl.dropbox.com/scl/fi/t81ihckuzmiks5x8k16bm/coemdoibongvui.mp3?rlkey=hrq68zixcbqai35wtmx333nps&st=8gqal2rn&dl=0"
+        }
     ],
 
     render: function () {                                        //render
@@ -94,9 +100,6 @@ const App = {
         <div class="body">
             <h3 class="title">${song.name}</h3>
             <p class="author">${song.singer}</p>
-        </div>
-        <div class="option">
-            <i class="fas fa-ellipsis-h"></i>
         </div>
         </div>
                 `
@@ -248,12 +251,6 @@ const App = {
                 App.loadCurrentSong();
                 audio.play();
             }
-            if (child.target.closest('.option')) {
-
-                alert("Chưa làm cái này :))))")
-
-            }
-
         }
         //Audio
         Volume.oninput = function () {
@@ -305,15 +302,7 @@ const App = {
             });
         }, 300)
     },
-    // randomSong: function(){
-    //          const randomi= Math.floor(Math.random()*(this.song.length+1));
-    //          var headername=this.song[randomi].name;
-    //          $('header h2').innerText=headername;
 
-    // },
-    // getCurrentSong: function(){
-    //      return this.song[this.currentIndex];
-    // },
     start: function () {
         this.defineProperties();    // Define property of Object
         this.render();
